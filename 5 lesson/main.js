@@ -54,18 +54,18 @@ function primality(num) {
 primality();
 
 //3
-let a = prompt("введіть перше число");
-let b = prompt("введіть друге число")
+let list=[-50,-23,-22,-152,25,-46,55,-99,199]
 
-function d(a, b) {
-    a = prompt("введіть перше число");
-    b = prompt("введіть друге число")
-    if (a > b) {
-        console.log(a)
-    } else if (a === b) {
-        console.log("числа рівні")
-    } else {
-        console.log(b)
-    }
-};
-d();
+function maxNum(list) {
+    let max;
+    let min= list[0];
+    for(let i = 0; i < list.length; i++){
+        if((list[i])<min){
+            min = list[i];
+        } else {
+            max = list[i]
+        }
+    } return max;
+}
+console.log(maxNum(list));
+ 
