@@ -24,10 +24,11 @@ let arr1 = getLenght(["Ivan", "Pavlo", "Ira"]);
 //4
 
 function removeDuplicates(arr) {
-    var seen = {};
-    return arr.filter(function (item) {
-        return seen.hasOwnProperty(item) ? false : (seen[item] = true);
+    for (let i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].toLowerCase()
+    }
+    return arr.filter(function (item, pos) {
+        return arr.indexOf(item) == pos
     });
 }
 
-// в 4 завданні не знаю як проігнорувати чутливість до регістру
