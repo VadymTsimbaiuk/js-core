@@ -1,0 +1,114 @@
+.color-container{
+    display: none;
+}
+.image-container{
+    display: none;
+}
+h1{
+    cursor: pointer;
+}
+
+table{
+    margin:0 auto;
+    border-collapse: collapse;
+}
+td{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+ol{
+    margin:0 auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 300px;
+}
+ul{
+    margin:0 auto;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 300px;
+}
+li{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.greenyellow{
+    background-color: greenyellow;
+}
+.brown{
+    background-color: brown;
+}
+.light-blue{
+    background-color: lightblue;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.grey{
+    background-color:grey;
+}
+.red{
+    background-color:red;
+}
+.blue{
+    background-color: blue;
+}
+.violet{
+    background-color: violet;
+}
+
+.yellow{
+    background-color: yellow;
+}
+.first{
+    background-image: url('https://images.pexels.com/photos/1295138/pexels-photo-1295138.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second{
+    background-image: url('https://images.pexels.com/photos/3608311/pexels-photo-3608311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.third{
+    background-image: url('https://images.pexels.com/photos/4347291/pexels-photo-4347291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fourth{
+    background-image: url('https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fifth{
+    background-image: url('https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sixth{
+    background-image: url('https://images.pexels.com/photos/1482193/pexels-photo-1482193.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seventh{
+background-image: url('https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.eighth{
+background-image: url('https://images.pexels.com/photos/64219/dolphin-marine-mammals-water-sea-64219.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+background-size: cover;
+background-repeat: no-repeat;
+}
+.ninth{
+    background-image: url('https://images.pexels.com/photos/103567/pexels-photo-103567.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

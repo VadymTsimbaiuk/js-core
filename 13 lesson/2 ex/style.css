@@ -1,0 +1,81 @@
+.text-center{
+    margin: 0 auto;
+    text-align: center;
+}
+.keyboard{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    width: 825px;
+    margin: 0 auto
+}
+.line::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.key{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.key:hover{
+    color: #fff;
+    background: slategrey;
+    cursor: pointer;
+
+}
+.backspace{
+width: 77px;
+}
+
+.tab{
+    width: 60px;
+}
+.capslock{
+    width: 60px;
+}
+.lshift, .rshift {
+    width: 115px;
+}
+
+.lctrl, .rctrl{
+    width: 85px;
+}
+.space{
+    width: 325px;
+}
+.window{
+    width: 30px;
+    margin-top: 5px;
+}
+.letter-key{
+    font-size: 12px;
+    line-height: 100%;
+    
+}
+.enter{
+    position: absolute;
+    right: 9px;
+    top: 62px;
+    height: 95px;
+    width: 56px;
+}
+.field{
+    height: 300px;
+    width: 800px;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.active{
+    background: slategrey; 
+}
