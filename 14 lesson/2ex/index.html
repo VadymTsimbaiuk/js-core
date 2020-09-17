@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form id="form" onsubmit="alert('submit!');return false">
+            <div class="header-form">
+                <h1>Create your accaunt</h1>
+            </div>
+            <div class="input-container">
+                <div class="regName">
+                    <div class="name">
+                        <label for="name">First Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="secondName">
+                        <label for="secondName">Second Name</label>
+                        <input type="text" id="secondName">
+
+                    </div>
+                </div>
+
+                <div class=" eAddres">
+                    <label for="eAddres">Email Address</label>
+                    <input type="email" id="eAddres">
+                    <div id="error"></div>
+                </div>
+
+                <div class="sex" onclick="checkSex()">
+                    <input type="radio" name="sex" id="man"><label for="man">man</label>
+                    <input type="radio" name="sex" id="woman"><label for="woman">woman</label>
+                </div>
+
+                <div class="work-position">
+                    <label for="position">Position:</label>
+                    <select id="position" required>
+                        <option selected="selected" disabled="disabled">Choose</option>
+                        <option value="fronted" id="1">Fronted</option>
+                        <option value="backend" id="2">Backend</option>
+                        <option value="QC/QA" id="3">QC/QA</option>
+                    </select>
+                </div>
+                <div class="terms">
+                    <input type="checkbox" name="terms" id="terms" onclick="checkAgree()"><label for="terms">I agree
+                        with all statements in
+                        Terms
+                        of
+                        service</label>
+                </div>
+                <div class="signUp">
+                    <input type="submit" value="Sign Up" id="bSignUp" disabled>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+    <div class="not-active" id="profile">
+        <div class="profile-header">
+            <div class="man">
+                <img src="./image/male-solid.svg" alt="">
+            </div>
+            <div class="woman"><img src="./image/female-solid.svg" alt=""></div>
+        </div>
+        <div class="profile-main">
+            <div id="fullName"></div>
+            <div id="work-eAddres"></div>
+            <div id="work-position"></div>
+            <div id="signOut">
+                <input type="button" value="Sign Out" id="bSignOut">
+            </div>
+        </div>
+        <div class="profile-fotter">
+            <img src="./image/facebook-f-brands.svg" alt="">
+            <img src="./image/linkedin-brands.svg" alt="">
+            <img src="./image/github-brands.svg" alt="">
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

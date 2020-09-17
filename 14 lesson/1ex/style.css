@@ -1,0 +1,21 @@
+.form-main{
+    display: flex;
+
+}
+.form-main div{
+    width: 33%;
+    margin-right: 10px;
+}
+.form-main input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+}
+#move{
+    background-color: forestgreen;
+    height: 35px;
+}
+#move:hover{
+    background-color: green;
+    color: white;
+}
