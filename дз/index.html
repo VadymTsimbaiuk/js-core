@@ -4,12 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 12</title>
+    <title>Lesson13</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
+    <div class="container">
+        <form id="form" class="form" onsubmit="return false">
+            <div class="form-container">
+                <div class="form-header">
+                    <h1>Please Sign Up</h1>
+                </div>
+                <div class="form-main">
+                    <div class="regName">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" class="form-input" required>
+                    </div>
+                    <div class="regLastName">
+                        <label for="LastName">Last Name</label>
+                        <input type="text" id="lastName" class="form-input" required>
+                    </div>
+                    <div class="regEmail">
+                        <label for="email">E-mail addres</label>
+                        <input type="text" id="email" class="form-input" required>
+                    </div>
+                   <div class="regPass">
+                    <label for="password">Password</label>
+                    <input type="text" class="form-input" id="password" required>
+                   </div>
+                    <div class="regAgree">
+                        <label for="agree" class="agree"> I agree with privacy policy </label>
+                        <input type="checkbox" id="agree" class="form-agree" onclick="check()" required >
+                    </div>
+                </div>
+                <div class="form-footer">
+                    <button class="signUp" id="signUp" type="Submit" disabled>Sign Up</button>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img src="./assets/check-circle-regular.svg" alt="" class="header">
+            </div>
+            <div class="modal-main">
+                <h2>GREAT</h2>
+                <p>Your accaunt has been created successfully.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="start" id="start">Start explorring</button>
+            </div>
+        </div>
+        
+    </div>
 
-    <script src="./assets/main.js"></script>
+    <script src="./assets/mail.js"></script>
 </body>
 
 </html>
